@@ -6,7 +6,7 @@ pipeline{
         stage('checkout'){
             
             steps{
-                git https://github.com/samsubbiah/spring-petclinic.git
+                git 'https://github.com/samsubbiah/spring-petclinic.git'
                 sh 'mvn --version'
             }
         }
